@@ -2,7 +2,7 @@
 GENERAL
 *************************/
 body {
-
+  background: url("../img/fresh_snow.png");
   padding: 20px;
   margin: 20px;
   color: #61D2D6;
@@ -33,11 +33,18 @@ h3, p, li {
 HEADING
 *************************/
 
-header {
-  text-align: center;
+.name {
+ 
   font-family: 'Pacifico', cursive;
   font-size: 2em;
   color: #EA3556;
+  display: block;
+  border-style: dashed;
+  margin: 20px;
+}
+
+header {
+	text-align: center;
 }
 
 
@@ -87,8 +94,8 @@ footer {
 }
 
 .social-icon {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   margin: 0 5px;
 }
   
