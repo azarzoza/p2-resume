@@ -26,6 +26,8 @@ h3, p, li {
   font-family: 'PT Sans', sans-serif;
 }
 
+
+
 /************************
 HEADING
 *************************/
@@ -63,7 +65,7 @@ nav {
   margin:20px 00;
 }
 
-nav li {
+li {
   list-style: none;
   display: inline-block;
 }
@@ -148,7 +150,7 @@ a {
 nav {
   background: #9BF0E9;
   opacity: 25%;
-  text-align: left;
+  text-align: center;
 }
 
 
