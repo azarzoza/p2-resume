@@ -2,11 +2,11 @@
 GENERAL
 *************************/
 body {
-  background: url("../img/fresh_snow.png");
-  padding: 20px;
-  margin: 20px;
-  color: #61D2D6;
-  display: inline-block;
+  background: url("../img/green_gobbler.png");
+  width: 1024px;
+  margin: 0 auto;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 
@@ -18,6 +18,7 @@ img {
   width: 300px;
   height: 400px;
   border-radius: 25%;
+  padding: 15px;
   
 }
 
@@ -25,9 +26,26 @@ h3, p, li {
   margin: 0 0 1em 0;
   color: #332222;
   font-family: 'PT Sans', sans-serif;
+
 }
 
+h3 {
+	text-align: center;
+}
 
+.column-1 {
+	padding: 10px;
+	margin: 10px;
+	float: right;
+	line-height: 1em;
+}
+
+.column-2 {
+	padding: 10px;
+	margin: 10px;
+	float: right;
+	line-height: 1em;
+}
 
 /************************
 HEADING
@@ -39,7 +57,6 @@ HEADING
   font-size: 2em;
   color: #EA3556;
   display: block;
-  border-style: dashed;
   margin: 20px;
 }
 
@@ -76,7 +93,8 @@ nav {
 
 li {
   list-style: none;
-  display: inline-block;
+
+
 }
 
 
@@ -128,17 +146,8 @@ PAGE:CONTACT
  background-image: url('../img/mail.png');
 }
 
-/************************
-COLORS
-*************************/
 
-/* site body */
-body { 
-  background-color: #61D2D6;
-  
-}
     
-
     
 /*links*/
 
@@ -148,10 +157,11 @@ a {
 
 
 
-nav {
+ul {
   background: #9BF0E9;
   opacity: 25%;
   text-align: center;
+  padding: 1em 0 1em 0;
 }
 
 
