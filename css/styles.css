@@ -34,6 +34,13 @@ h3 {
 	text-align: center;
 }
 
+p {
+  padding: 1em;
+  text-indent: 2em;
+  font-family: 'PT Sans', sans-serif;
+
+
+}
 
 
 .column-2 {
