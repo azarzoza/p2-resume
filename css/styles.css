@@ -19,10 +19,11 @@ img {
   height: 400px;
   border-radius: 25%;
   padding: 15px;
+  overflow: hidden;
   
 }
 
-h3, p, li {
+ li {
   margin: 0 0 1em 0;
   color: #332222;
   font-family: 'PT Sans', sans-serif;
@@ -33,12 +34,7 @@ h3 {
 	text-align: center;
 }
 
-.column-1 {
-	padding: 10px;
-	margin: 10px;
-	float: right;
-	line-height: 1em;
-}
+
 
 .column-2 {
 	padding: 10px;
@@ -46,6 +42,8 @@ h3 {
 	float: right;
 	line-height: 1em;
 }
+
+
 
 /************************
 HEADING
@@ -79,6 +77,7 @@ h2 {
   margin:-5px 0 0;
   font-weight: normal;
   font-size: 1.50em;
+  text-align: center;
 }
 
 
@@ -158,10 +157,10 @@ a {
 
 
 ul {
-  background: #9BF0E9;
-  opacity: 25%;
+  background: #AADFC3;
   text-align: center;
   padding: 1em 0 1em 0;
+  border-radius: 25%;
 }
 
 
