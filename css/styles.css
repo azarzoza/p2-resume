@@ -10,10 +10,6 @@ body {
 }
 
 
-a { 
-  text-decoration: none;
-}
-
 img {
   width: 300px;
   height: 400px;
@@ -27,20 +23,21 @@ img {
   margin: 0 0 1em 0;
   color: #332222;
   font-family: 'PT Sans', sans-serif;
+  list-style: none;
+  font-size: 11px;
 
 }
 
-h3 {
-	text-align: center;
-}
 
 p {
   padding: 1em;
   text-indent: 2em;
   font-family: 'PT Sans', sans-serif;
-
+  min-height: 10px;
+  max-height: 30px;
 
 }
+
 
 
 .column-2 {
@@ -51,7 +48,25 @@ p {
 }
 
 
+.social-icon {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+}
 
+ul {
+  background: #AADFC3;
+  text-align: center;
+  padding: 1em 0 1em 0;
+  border-radius: 25%;
+}
+
+p {
+  text-align: center;
+  border-radius: 25%;
+  font-size: 11px;
+
+}
 /************************
 HEADING
 *************************/
@@ -80,22 +95,6 @@ h1 {
 }
 
 
-/************************
-NAVIGATION
-*************************/
-nav {
-  text-align:center;
-  padding:10px 0;
-  margin:20px 00;
-}
-
-li {
-  list-style: none;
-
-
-}
-
-
 
 
 /************************
@@ -109,58 +108,10 @@ footer {
   color: #EA3556;
 }
 
-.social-icon {
-  width: 25px;
-  height: 25px;
-  margin: 0 5px;
-}
-  
+
+ 
 
 
-
-
-
-
-/************************
-PAGE:CONTACT
-*************************/
-.contact-info {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 0.9em;
-}
-
-.contact-info a {
-  display:block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;  
-}
-
-.contact-info li.mail a {
- background-image: url('../img/mail.png');
-}
-
-
-    
-    
-/*links*/
-
-a {
-  color: #AFEEEE;
-}
-
-
-
-ul {
-  background: #AADFC3;
-  text-align: center;
-  padding: 1em 0 1em 0;
-  border-radius: 25%;
-}
 
 
 
